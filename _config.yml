@@ -82,3 +82,4 @@ deploy:
   repo: git@github.com:wizardhead/wizardhead.github.io
   branch: master
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
+  sshIdentity: ~/.ssh/id_rsa_3xg
