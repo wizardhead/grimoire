@@ -5,7 +5,7 @@
 # Site
 title: Wizardhead
 subtitle: Welcome to my laboratory
-description: 
+description:
 keywords:
 author: Immerses Theurgists
 language:
@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://wizardhead.com
+url: https://wizardhead.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -82,6 +82,8 @@ deploy:
   repo: git@github.com:wizardhead/wizardhead.github.io
   branch: master
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
+  userName: Immerses Theurgists
+  userEmail: it@wizardhead.com
 
 # Website's icon url.
 favicon: /favicon.png
@@ -110,9 +112,9 @@ article:
 # Navigation bar menu links.
 menu:
   Archives: /archives
-  Hello World Eater: /categories/HWE 
-  Music: /categories/Music
-  Technology: /categories/Technology
+  # Hello World Eater: /categories/HWE
+  # Music: /categories/Music
+  # Technology: /categories/Technology
   About: /about
 
 # Search plugin settings.
@@ -127,7 +129,7 @@ share:
 # Comment plugin settings.
 comment:
   type: disqus
-  shortname:
+  shortname: wizardhead
 
 # Other plugins and their settings.
 plugins:
