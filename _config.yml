@@ -4,8 +4,8 @@
 
 # Site
 title: Wizardhead
-subtitle:
-description:
+subtitle: Welcome to my laboratory
+description: 
 keywords:
 author: Immerses Theurgists
 language:
@@ -43,7 +43,7 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
-  
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
@@ -52,7 +52,7 @@ index_generator:
   path: ''
   per_page: 10
   order_by: -date
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: minos
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -82,4 +82,69 @@ deploy:
   repo: git@github.com:wizardhead/wizardhead.github.io
   branch: master
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
-  sshIdentity: ~/.ssh/id_rsa_3xg
+
+# Website's icon url.
+favicon: /favicon.png
+
+# Open Graph metadata (https://hexo.io/docs/helpers.html#open-graph)
+open_graph:
+  twitter_id: wizardhead
+  twitter_site: wizardhead
+  google_plus:
+  fb_admins:
+  fb_app_id:
+
+# Website's logo shown on the left of the navigation bar.
+# It can either be an url to an image or a string if the following option is set.
+# logo:
+#   text: <logo string>
+logo:
+  text: Wizardhead
+
+article:
+  # Show word count and estimated reading time.
+  readtime: true
+  # Code highlight theme, please see https://highlightjs.org/static/demo/
+  highlight: atom-one-light
+
+# Navigation bar menu links.
+menu:
+  Archives: /archives
+  Hello World Eater: /categories/HWE 
+  Music: /categories/Music
+  Technology: /categories/Technology
+  About: /about
+
+# Search plugin settings.
+search:
+  type: insight
+
+# Share plugin settings.
+share:
+  type: addthis
+  install_url: //s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5c08adb4f725b386
+
+# Comment plugin settings.
+comment:
+  type: disqus
+  shortname:
+
+# Other plugins and their settings.
+plugins:
+  # mathjax: true
+  gallery: true
+  google-analytics:
+    tracking_id:
+
+# Additional navigation bar links on the right.
+# Links can either be text or icon. The following link is set to be an icon link whose icon
+# is set to the class name of a FontAwesome 5 icon. The `footer_links` below also gives an
+# example of setting plain text links.
+navbar_links:
+  About:
+    icon: fab fa-info-circle
+    url: /about
+
+# Links at the bottom of the page.
+footer_links:
+  GitHub: https://github.com/wizardhead/grimoire
