@@ -8,8 +8,8 @@ subtitle: Welcome to my laboratory
 description:
 keywords:
 author: Immerses Theurgists
-language:
-timezone:
+language: en
+timezone: America/Los_Angeles
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -119,12 +119,13 @@ menu:
 
 # Search plugin settings.
 search:
-  type: insight
+  type: google-cse
+  cx: 001199945556643408667:may70wh5640
 
 # Share plugin settings.
-share:
-  type: addthis
-  install_url: //s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5c08adb4f725b386
+# share:
+#   type: addthis
+#   install_url: //s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5c08adb4f725b386
 
 # Comment plugin settings.
 comment:
@@ -136,7 +137,7 @@ plugins:
   # mathjax: true
   gallery: true
   google-analytics:
-    tracking_id:
+    tracking_id: UA-130079317-1
 
 # Additional navigation bar links on the right.
 # Links can either be text or icon. The following link is set to be an icon link whose icon
@@ -148,5 +149,5 @@ navbar_links:
     url: /about
 
 # Links at the bottom of the page.
-footer_links:
-  GitHub: https://github.com/wizardhead/grimoire
+# footer_links:
+#   GitHub: https://github.com/wizardhead/grimoire
